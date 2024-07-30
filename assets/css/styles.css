@@ -32,6 +32,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 5px #065a65;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -64,14 +67,44 @@ h1 {
 }
 
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #065a65;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #065a65;
+    display: none;
+    top: 100%;
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-size: 30px;
+    
+}
+
+/* Nav toggle */
+#nav-toggle:checked ~ nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    color: black;
+}
+
 /* MAIN */
 
 main {
-
+    
     background-color: brown;
 
     /* Main takes any surplus space and not shrink when the screen is to small to show all content */
     flex: 1 0 auto;
+    margin-top: 63px;
 }
 
 footer {
