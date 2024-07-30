@@ -34,7 +34,35 @@ This Website is a portfolio for a ficitonal New Orleans based street artist name
 
 ## Features
 
+### Existing Features
 
+-  #### Navigation Bar
+
+    - The Navigation bar features consistently across all 4 pages, providing quick and simple navigation from anywhere on the site. The header containing the navbar is fixed, allowing the user to travel from page to page without having to scroll back to the top. This helps creates a positive user experience.
+
+- #### Hero image and Call to Action
+
+    - The hero image is bright and vibrant. It's instantly eye-catching and draws the user in immediately. It demonstrates the artist's typical styles and themes so that the general user can decide whether they want to see more of the artist's work and the prospective customer can get an idea of whether or not the artist's work would suit their business needs.
+
+- #### Review Section
+
+    - The review section serves as a helpful tool in promoting the artist to the user. Seeing the positive reactions to the artist's work can encourage prospective customers to explore the site further and potentially submit a request via the contact form. 
+
+- #### The footer
+
+    - The footer contains all the social media links attributed to the artist. It features on every page so that users can quickly and easily access Mara's facebook, isnstagram, Youtube or Twitter account. The social media pages all open in new tabs so that the user is not redirected from the artist's website. This is another feature that helps create a positive user experience.
+
+- #### The Gallery
+
+    - A gallery is a perfect way for any artist to showcase their work, and is therefore a key feature on Mara's website. The gallery is divided into two seperate sections, one that demonstrates her cultural pieces and another that showcases her commercial projects. Keeping them separate improves the user experience, particularly for prospective customers who want to see what work Mara has done for other local businesses as they can now find these images straight away as they are not scattered amongst the other murals.
+
+- #### The Contact form
+
+    - The contact form is another integral feature for the website. It allows prospective customers to reach out to Mara to request a commission. She can then use the submitted information in the form to contact the prospective customer with a quote for the planned work. 
+
+- #### The About page
+
+    - The About page allows the user to learn more about the artist behind the art. The page features a picture of a smiling young woman with paint splatters on her skin and clothes. This makes Mara seem down to earth, warm, approachable and passionate about creating art. These are all qualities that a prospective customer might find appealing, which again creates a positive user experience. The picture of the artist also establishes Mara as a real person and helps to foster a human connection with the user, as they now might feel more inclined to support Mara's business knowing that she isn't a big faceless corporation or a robot. The informative and detailed artist biography also supports this idea and contributes to a positive user experience.
 
 ## Design
 
