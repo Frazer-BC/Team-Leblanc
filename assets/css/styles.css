@@ -120,6 +120,24 @@ main {
     width: 100%;
     background: url("../images/hero.webp") no-repeat center center/cover;
     position: relative;  /* 1 >>>> cover text position */
+
+   /* Keyframes */
+   /* Animates zoom effect on loading the page */
+   animation-name: signup;
+   animation-duration: 5s;
+   animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for hero image */
+@keyframes signup {
+   from{
+       transform: scale(1.1);
+   }
+   to{
+       transform: scale(1.0);
+   }
+}
+
  }
 
  #cover-text {
@@ -191,6 +209,37 @@ main {
 
 #reviews h3 {
     color: #fafafa; /* Override the heading color set in general styles */
+}
+
+/* Gallery page styles */
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+      /* hoover effect */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+
+
+
+#photos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+  
+
+.galleryh1 {
+
+    color: aliceblue;
+    background-color: #065a65;
+    text-align: center;
+    padding-bottom: 20px; /* Add padding to the bottom of the heading */
+
 }
 
 
@@ -366,6 +415,7 @@ button[type="submit"]:hover {
         margin-top: 118px;
     }
 
+  
     
 }
 
@@ -374,6 +424,8 @@ button[type="submit"]:hover {
     #menu a:hover {
         border-bottom: 1px solid #9c485c;
     }
+
+    
 }
 
 @media screen and (min-width: 576px) {
@@ -383,10 +435,12 @@ button[type="submit"]:hover {
         /* for the space between photos */
         column-gap: 0;
     }
+
+   
 }
 
 /* Hide cover text on devices smaller than 768px */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     #cover-text {
         display: none;
     }
