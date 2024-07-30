@@ -107,10 +107,28 @@ main {
     margin-top: 63px;
 }
 
+/* Footer */
+
 footer {
 
-    background-color: blue;
+    #social-networks {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        background-color: #065a65;
+    }
+    
+    #social-networks i {
+        font-size: 200%;
+        padding: 5%;
+        color: hsl(346, 37%, 45%);
+        
+    }
 }
+
+
 
 
 /* Media Query */ 
@@ -158,3 +176,4 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #9c485c;
     }
+}
