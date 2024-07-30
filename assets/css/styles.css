@@ -22,11 +22,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-
+/* Header */
 
 header {
 
     background-color: aqua;
+}
+
+h1 {
+    font-family: 'Permanent Marker', sans-serif;
 }
 
 main {
