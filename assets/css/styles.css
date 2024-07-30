@@ -26,12 +26,45 @@ body {
 
 header {
 
-    background-color: aqua;
+    background-color: #065a65;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 5px #065a65;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffff;
 }
 
 h1 {
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffff;
 }
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    background-color: #065a65;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+    color: #ffff;
+}
+
+.active {
+    border-bottom: 2px solid #9c485c;
+}
+
+
+/* MAIN */
 
 main {
 
