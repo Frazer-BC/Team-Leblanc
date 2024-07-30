@@ -12,5 +12,3 @@ This Website is a portfolio for a ficitonal New Orleans based street artist name
 * [Credits](#credits)
 
 ## User Experience (UX)
-
-
