@@ -299,23 +299,27 @@ body.contact-page::before {
 
 #contact-form {
     
-    max-width: 100vw;
+    max-width: 50vw;
     width: 100%; /* Allow the form to adjust to the screen size */
     padding: 20px;
-    background-color: #065a65; /* Semi-transparent background for readability */
+    background-color: rgba(6, 90, 101, 0.8); /* Semi-transparent background for readability */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
-    z-index: 2; /* Ensures the form is above the background */
+    z-index: 20; /* Ensures the form is above the background */
     text-align: center; /* Center text inside the form */
+    margin-left: 25%;
+    top: 5%;
 }
 
 #contact-form h2 {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
-    font-family: 'East Sea Dokdo', sans-serif; 
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
     color: #ffff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .form-group {
@@ -326,7 +330,8 @@ body.contact-page::before {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #065a65;
+    color: #ffff;
+    text-align: left;
 }
 
 .form-group input,
