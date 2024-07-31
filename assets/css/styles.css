@@ -20,6 +20,7 @@ body {
     /*General project color */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
+    
 }
 
 /* Header */
@@ -210,10 +211,14 @@ main {
     color: #fafafa; /* Override the heading color set in general styles */
 }
 
-/*about page styles*/
+/*About page styles*/
 
-#about-image-section {
-    display: inline
+
+
+#about-image {
+    background: url("../images/maraabout.webp") no-repeat center center/cover;
+    
+    
 
 }
 
@@ -225,6 +230,44 @@ main {
 }
 
 
+.about-page {
+    flex: 1;
+    padding: 0;
+    /* Ensure content fits within the viewport */
+    overflow-x: hidden; 
+}
+
+section.about-content {
+    display: flex;
+    flex-direction: column; /* Column layout for small screens */
+    gap: 20px;
+    margin: 20px 0; /* Ensure some vertical spacing */
+}
+
+#about-image img {
+    width: 100%; /* Full width for mobile */
+    max-width: 100%; /* No horizontal overflow */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 5px;
+    height: 600px;
+}
+
+#about-text {
+    color: #ffffff;
+    background-color: rgba(156, 72, 92, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+    overflow: hidden; /* Prevent content overflow */
+    word-wrap: break-word; /* Break long words */
+}
+
+#mara-bio {
+
+    text-align: center;
+}
+
+
 /* Gallery page styles */
 
 #photos img {
@@ -233,9 +276,6 @@ main {
       /* hover effect */
       transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-
-
 
 
 
@@ -392,6 +432,11 @@ button[type="submit"]:hover {
     padding-top: 20px; /* Add padding to the top of the gallery */
     
 }
+
+
+
+/* About Page */
+/* About Page Styles */
 
 
 
