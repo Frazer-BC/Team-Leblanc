@@ -284,6 +284,10 @@ section.about-content {
 
 /* Gallery page styles */
 
+section#gallery {
+    background-color: #9c485c;
+}
+
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -304,17 +308,16 @@ section.about-content {
 .galleryh1 {
 
     color: aliceblue;
-    background-color: #065a65;
+    background-color: #9c485c;
     text-align: center;
     padding-bottom: 20px; /* Add padding to the bottom of the heading */
+    margin-top: 10px;
 
 }
 
 
 
 /* Footer */
-
-
 
     #social-networks {
         text-align: center;
@@ -366,9 +369,14 @@ body.contact-page::before {
     position:fixed
 }
 
+form {
+    max-height: 90vh;
+}
+
 #contact-form {
     
     max-width: 50vw;
+    max-height: 90vh;
     width: 100%; /* Allow the form to adjust to the screen size */
     padding: 20px;
     background-color: rgba(6, 90, 101, 0.8); /* Semi-transparent background for readability */
@@ -386,7 +394,7 @@ body.contact-page::before {
     text-align: center;
     font-family: 'East Sea Dokdo', sans-serif;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 2rem;
     color: #ffff;
     margin-bottom: 10px;
 }
@@ -503,7 +511,19 @@ button[type="submit"]:hover {
         border-bottom: 1px solid #9c485c;
     }
 
+    h2#form-contact {
+        font-size: 90px;
+    }
+
     
+}
+
+@media screen and (min-width: 1440px) {
+    /*large laptops and desktops*/
+
+    h2#form-contact {
+        font-size: 5rem;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -521,5 +541,15 @@ button[type="submit"]:hover {
 @media screen and (max-width: 768px) {
     #cover-text {
         display: none;
+    }
+
+    h2#form-contact {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    form {
+        height: 70vh;
     }
 }
