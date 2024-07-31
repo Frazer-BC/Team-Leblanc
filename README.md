@@ -81,6 +81,22 @@ This Website is a portfolio for a ficitonal New Orleans based street artist name
 
 -   ### Wireframes
 
+    - #### Home Page Wireframes
+
+    ![Home](/assets/documentation/wireframes2home.png)
+
+    - #### Gallery Wireframes
+
+    ![Gallery](/assets/documentation/wireframes2gal.png)
+
+    - #### Contact Wireframes
+
+    ![Contact](/assets/documentation/wireframes2contact.png)
+
+    - #### About Wireframes
+
+    ![About](/assets/documentation/wireframes2about.png)
+
 
 ## Technologies Used
 
