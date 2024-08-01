@@ -434,7 +434,7 @@ button[type="submit"]:hover {
 
 /* Gallery page styles */
 .gallery {
-    padding: 2rem;
+    padding: 0;
     background-color: #065a65; 
     padding-top: 20px; /* Add padding to the top of the gallery */
     
