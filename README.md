@@ -224,5 +224,5 @@ However, the bug does not seem to appear when tested on particular phone models 
 
 ### Aknowlegements
 
-Thank you to our mentors, Elaine and Mark who helped us resolve some technical issues and provided support.
+Thank you to our mentors, Elaine and Mark who helped us resolve some technical issues and provided support. Also the basic structure of this readme was built following the example of Elaine's [Thrive project readme](https://github.com/elainebroche-dev/ms1-thrive/blob/master/README.md).
 
