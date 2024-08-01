@@ -516,6 +516,7 @@ button[type="submit"]:hover {
         column-count: 2;
         /* for the space between photos */
         column-gap: 0;
+        line-height: 0;
     }
 
    
