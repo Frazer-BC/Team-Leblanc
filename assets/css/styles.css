@@ -531,6 +531,13 @@ button[type="submit"]:hover {
     h2#form-contact {
         font-size: 2rem;
     }
+
+    #contact-form {
+        max-width: 90%;
+        margin: 20px auto; /* Center the form and add some top/bottom margin */
+        padding: 10px;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -538,3 +545,8 @@ button[type="submit"]:hover {
         height: 70vh;
     }
 }
+
+
+    
+
+
