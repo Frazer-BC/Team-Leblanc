@@ -524,6 +524,12 @@ button[type="submit"]:hover {
 
 /* Hide cover text on devices smaller than 768px */
 @media screen and (max-width: 567px) {
+
+.photos {
+
+    line-height: 0;
+}
+
     #cover-text {
         display: none;
  
